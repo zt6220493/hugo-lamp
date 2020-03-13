@@ -1,14 +1,14 @@
-baseURL = "http://localhost:1313/"
-languageCode = "en-us"
-title = "Hugo LAMP"
+baseURL = "https://zt6220493.github.io/yunqi/"
+languageCode = "zh-CN"
+title = "zh-blog"
 theme = "hugo-lamp"
 googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
 
 [params]
   mainSections = ["posts"]
-  subtitle = "Light responsive AMP theme"
-  author = "Huy Nguyen"
-  logo = "/img/avatar.jpg"
+  subtitle = "Lake And Ocean"
+  author = "Zh"
+  logo = "/yunqi/img/avatar.jpg"
   description = "A light responsive Hugo AMP theme for blogger"
   paginate = 10
 
@@ -23,33 +23,32 @@ googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
   msValidate = "bing_site_verification_code"                  # Bing Webmaster
 
   # Social networks
-  email = "name@domain.com"
-  github = "huyb1991"
-  twitter = "twitter_username"
-  linkedin = "linkedin_username"
-  facebook = "facebook_username"
-  google = "googleplus_id_number"
-  instagram = "instagram_username"
-  youtube = "youtube_username"
-  dribbble = "dribbble_username"
-  reddit = "reddit_username"
+  email = "1165727479@qq.com"
+  github = "zt6220493"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
+  archive = "archives"
 
 [[menu.main]]
-  name = "Hugo"
+  name = "文章"
   weight = 1
-  identifier = "hugo"
-  url = "/hugo/"
+  identifier = "post"
+  url = "/post/"
 [[menu.main]]
-  name = "AMP Project"
+  name = "归档"
   weight = 2
-  identifier = "amp"
-  url = "/amp/"
+  identifier = "archives"
+  url = "/archives/"
 [[menu.main]]
-  name = "Tags"
+  name = "分类"
   weight = 3
+  identifier = "categories"
+  url = "/categories/"
+[[menu.main]]
+  name = "标签"
+  weight = 4
   identifier = "tags"
   url = "/tags/"
+
